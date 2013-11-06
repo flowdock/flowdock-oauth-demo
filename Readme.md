@@ -9,7 +9,7 @@ streams new messages. Messages can also be sent to the flow.
 [App.rb](https://github.com/flowdock/flowdock-oauth-demo/blob/master/app.rb)
 contains Sinatra app that is the redirect URL endpoint for OAuth.
 
-[index.html](https://github.com/flowdock/flowdock-oauth-demo/blob/master/public/index.html)
+[Index.html](https://github.com/flowdock/flowdock-oauth-demo/blob/master/static/index.html)
 is a JavaScript client that interacts with Flowdock API using CORS.
 
 ## Setup
