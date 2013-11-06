@@ -1,10 +1,16 @@
 # Flowdock OAuth Client Demo
 
-This repo contains a demo application that uses Flowdock API via OAuth 2.0. The
+This repo contains a demo application that uses Flowdock API via OAuth 2.0 over. The
 client-side part utilises streaming API.
 
 The app fetches latest chat messages for the selected flow in Flowdock and
-streams new messages. Messages can also be sent.
+streams new messages. Messages can also be sent to the flow.
+
+[App.rb](https://github.com/flowdock/flowdock-oauth-demo/blob/master/app.rb)
+contains Sinatra app that is the redirect URL endpoint for OAuth.
+
+[index.html](https://github.com/flowdock/flowdock-oauth-demo/blob/master/public/index.html)
+is a JavaScript client that interacts with Flowdock API using CORS.
 
 ## Setup
 
