@@ -7,7 +7,7 @@ $stdout.sync = true
 use Rack::Session::Cookie, secret: ENV['COOKIE_SECRET']
 set :public_folder, Proc.new { File.join(root, "static") }
 use OmniAuth::Builder do
-  provider :flowdock, ENV['FLOWDOCK_CLIENT_ID'], ENV['FLOWDOCK_CLIENT_SECRET']
+  provider :flowdock, ENV['FLOWDOCK_CLIENT_ID'], ENV['FLOWDOCK_CLIENT_SECRET'], scope: 'flow'
 end
 
 get '/auth/:name/callback' do
