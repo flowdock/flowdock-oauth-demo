@@ -1,7 +1,7 @@
 # Flowdock OAuth Client Demo
 
-This repo contains a demo application that uses Flowdock API via OAuth 2.0 over. The
-client-side part utilises streaming API.
+This repo contains a demo application that uses [Flowdock API](https://flowdock.com/api)
+via OAuth 2.0. The client-side part utilises [Flowdock Sreaming API](https://flowdock.com/api/streaming).
 
 The app fetches latest chat messages for the selected flow in Flowdock and
 streams new messages. Messages can also be sent to the flow.
