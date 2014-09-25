@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'omniauth'
-require_relative 'lib/omniauth/strategies/flowdock'
+require 'omniauth-flowdock'
 
 $stdout.sync = true
 
